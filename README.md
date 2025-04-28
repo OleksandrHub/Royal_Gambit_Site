@@ -34,12 +34,12 @@ The website aims to provide potential customers and partners with information ab
 
 ## Tech Stack
 
-- <img src="https://img.icons8.com/color/48/000000/html-5.png" width="50" height="50" /> **HTML5** - for structure and content.
-- <img src="https://img.icons8.com/color/48/000000/css3.png" width="50" height="50" /> **CSS3** - for styling and layout.
-- <img src="https://img.icons8.com/color/48/000000/javascript.png" width="50" height="50" /> **JavaScript** - for interactive features.
-- <img src="https://img.icons8.com/?size=100&id=gzQvAG872XN8&format=png&color=000000" width="50" height="50" /> **Responsive Design** - the site is fully responsive and works seamlessly on mobile devices, tablets, and desktops.
-- <img src="https://img.icons8.com/color/48/000000/bootstrap.png" width="50" height="50" /> **Bootstrap** - for faster and more efficient styling.
-- <img src="https://img.icons8.com/?size=100&id=4jTZOHNDLqDM&format=png&color=000000" width="50" height="50" /> **Font Awesome** - for icons.
+- <img src="https://img.icons8.com/color/48/000000/html-5.png" width="50" height="50" style="vertical-align: middle;"/> **HTML5** - for structure and content.
+- <img src="https://img.icons8.com/color/48/000000/css3.png" width="50" height="50" style="vertical-align: middle;"/> **CSS3** - for styling and layout.
+- <img src="https://img.icons8.com/color/48/000000/javascript.png" width="50" height="50" style="vertical-align: middle;"/> **JavaScript** - for interactive features.
+- <img src="https://img.icons8.com/?size=100&id=gzQvAG872XN8&format=png&color=000000" width="50" height="50" style="vertical-align: middle;"/> **Responsive Design** - the site is fully responsive and works seamlessly on mobile devices, tablets, and desktops.
+- <img src="https://img.icons8.com/color/48/000000/bootstrap.png" width="50" height="50" style="vertical-align: middle;"/> **Bootstrap** - for faster and more efficient styling.
+- <img src="https://img.icons8.com/?size=100&id=4jTZOHNDLqDM&format=png&color=000000" width="50" height="50" style="vertical-align: middle;"/> **Font Awesome** - for icons.
 
 
 ## Installation
