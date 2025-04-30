@@ -1,0 +1,103 @@
+:root{
+    --primary-color: #ffffff;
+    --secondary-color: #a67b5b;
+    --accent-color: #8b5a2b;
+    --background-color: #3d3d3d;
+    --text-color: #161616;
+}
+/* #region Font */
+@font-face {
+    font-family: 'CormorantGaramond';
+    src: url('../fonts/CormorantGaramond-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Mukta';
+    src: url('../fonts/Mukta-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/* #endregion */
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+section{
+    padding: 50px 0;
+}
+/* #region Text*/
+h1{
+    font-family: 'CormorantGaramond', serif;
+    font-size: 2.5em;
+    color: #333;
+}
+h2, h3, h4, h5, h6{
+    font-family: 'Mukta', serif;
+    font-size: 2em;
+    color: #333;
+}
+/* #endregion */
+
+/* #region Color */
+.rg-bg-accent{
+    background-color: var(--accent-color);
+}
+.rg-bg-secondary{
+    background-color: var(--secondary-color);
+    border-color: var(--accent-color);
+}
+.rg-bg-primary{
+    background-color: var(--primary-color);
+}
+.rg-accent-color{
+    color: var(--accent-color);
+}
+.rg-primary-color{
+    color: var(--primary-color);
+}
+.rg-secondary-color{
+    color: var(--secondary-color);
+}
+
+.social-links a i{
+    font-size: 1em;
+}
+.social-links a{
+    width: 40px;
+    height: 40px;
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    text-decoration: none;
+    padding: 5px;
+    margin: 0 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30%;
+}
+/* #endregion */
+
+/* #region Hero-section */
+.hero-section{
+    background: url('../image/chess_fon.webp') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-primary:hover{
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    border: 1px solid var(--accent-color);
+}
+.rg-hero-container{
+    border-radius: 2%;
+    padding: 10px;
+}
+/* #endregion */

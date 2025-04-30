@@ -1,16 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Royal Gambit</title>
-    <link rel="stylesheet" href="./styles/bootstrap.min.css">
-    <link rel="stylesheet" href="./styles/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Royal Gambit</title>
+  <link rel="stylesheet" href="./styles/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
-    <!-- Головна сторінка -->
-    <header>Hello world!</header>
+  <!-- Головна сторінка -->
+  <!-- Навігація -->
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-12-md d-flex justify-content-between align-items-center my-2">
+          <div>
+            <i class="fa-solid fa-map-pin rg-accent-color"></i>
+            <span class="ms-2">вул. Стратегічна, 5, Тернопіль,79000, Україна</span>
+          </div>
+          <div>
+            <i class="fa-solid fa-phone rg-accent-color"></i>
+            <span class="ms-2">+38 (063) 123 45 67</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg rg-bg-primary">
+      <div class="container-fluid ">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="./image/logotype6.svg" alt="Logo" width="80" class="d-inline-block align-text-top">
+          Royal Gambit
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav nav-underline">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Головна</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Про нас</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Послуги</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Галерея</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Контакти</a>
+            </li>
+            <li class="nav-item social-links">
+              <a href="https://www.facebook.com" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://www.instagram.com" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://www.youtube.com" target="_blank">
+                <i class="fab fa-youtube"></i>
+              </a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Головна секція -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 text-left rg-bg-primary rg-hero-container">
+          <h1 class="rg-secondary-color">Royal Gambit</h1>
+          <p>У самому серці міста Royal Gambit поєднує аромат авторської кави з захоплюючими шаховими партіями. Тут народжуються нові ідеї, знайомства та перемоги — за філіжанкою еспресо й шахівницею.</p>
+          <a href="#" class="btn btn-primary rg-bg-secondary">Дізнатися більше</a>
+        </div>
+      </div>
+    </div>
 
-    <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
