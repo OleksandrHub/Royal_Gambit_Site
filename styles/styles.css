@@ -30,7 +30,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 section{
-    padding: 15% 0;
+    padding: min(15%, 200px)  0;
 }
 /* #region Text*/
 h1{
@@ -114,6 +114,7 @@ h2, h3, h4, h5, h6{
 /* #region Gallery*/
 .rg-img-cut-gallery{
     height: 70vh;
+    max-height: 700px;
     width: 100%;
     object-fit: cover;
 }
@@ -174,5 +175,15 @@ footer a:hover{
 
 footer ul li{
     padding: 0 5px;
+}
+/* #endregion */
+
+/* #region Модальне вікно */
+#menu ul{
+    list-style: none;
+    padding: 0;
+}
+#menu ul li{
+    padding: 2px 5px;
 }
 /* #endregion */
