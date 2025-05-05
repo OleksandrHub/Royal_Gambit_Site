@@ -30,17 +30,15 @@
     font-family: 'Montserrat', sans-serif;
 }
 section{
-    padding: 50px 0;
+    padding: 15% 0;
 }
 /* #region Text*/
 h1{
     font-family: 'CormorantGaramond', serif;
-    font-size: 2.5em;
     color: #333;
 }
 h2, h3, h4, h5, h6{
     font-family: 'Mukta', serif;
-    font-size: 2em;
     color: #333;
 }
 /* #endregion */
@@ -99,5 +97,41 @@ h2, h3, h4, h5, h6{
 .rg-hero-container{
     border-radius: 2%;
     padding: 10px;
+}
+.rg-hero-container *{
+    padding: 2% auto;
+}
+/* #endregion */
+
+/* #region About */
+.rg-img-cut{
+    height: 180px;
+    object-fit: cover;
+}
+
+/* #endregion */
+
+/* #region Footer */
+footer{
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    padding: 2% 0;
+}
+footer h2 {
+    color: var(--primary-color);
+}
+
+footer a{
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: var(--accent-color);
+    text-decoration: underline;
+}
+
+footer ul li{
+    padding: 0 5px;
 }
 /* #endregion */
