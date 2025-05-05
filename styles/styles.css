@@ -111,6 +111,47 @@ h2, h3, h4, h5, h6{
 
 /* #endregion */
 
+/* #region Gallery*/
+.rg-img-cut-gallery{
+    height: 70vh;
+    width: 100%;
+    object-fit: cover;
+}
+/* #endregion */
+
+/* #region Відгуки клієнтів (Testimonials)  */
+.rg-img-cut-testimonials{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid var(--accent-color);
+    margin: 0 auto;
+    object-fit: cover;
+}
+.rg-bg-linear{
+    background: linear-gradient(to right, var(--accent-color), var(--secondary-color));
+}
+.rg-bg-circle{
+    background: radial-gradient(circle, var(--accent-color), var(--secondary-color));
+}
+.rg-bg-repeat{
+    background: repeating-linear-gradient(45deg, var(--accent-color), var(--accent-color) 10px, var(--secondary-color) 10px, var(--secondary-color) 20px);
+}
+.rg-bg-circle-repeat{
+    background: repeating-radial-gradient(circle, var(--accent-color), var(--accent-color) 200px, var(--secondary-color) 200px, var(--secondary-color) 400px);
+}
+/* #endregion */
+
+/* #region Contact */
+.rg-form-button{
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    border: 1px solid var(--text-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+/* #endregion */
+
 /* #region Footer */
 footer{
     background-color: var(--background-color);
