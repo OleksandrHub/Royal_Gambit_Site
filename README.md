@@ -1,36 +1,39 @@
 # Royal Gambit - Official Website
 
-Welcome to the official website of **Royal Gambit**! This repository contains the source code for the multi-page website for showcasing products, services, and the mission of the company.
+Ласкаво просимо на офіційний сайт Royal Gambit ♟️
+Цей репозиторій містить вихідний код багатосторінкового сайту Royal Gambit — унікального кафе, де поєднуються культура кави та шахова атмосфера.
 
-## Description
+📝 Опис
+🏛️ Історія компанії
+Royal Gambit виник із бажання об’єднати дві пристрасті — вічну гру в шахи та мистецтво кавової культури. Засноване в центрі міста, наше кафе швидко стало місцем зустрічей для мислителів, творчих людей та поціновувачів стратегічних ігор. Це більше, ніж просто кав’ярня — це простір, де кожен хід має значення, а кожен гість — частина гри.
 
-Company History
-Royal Gambit was founded on bringing together the passion for classic games and coffee culture in one unique place. The idea arose in the heart of the city, where experienced players and lovers of good coffee could find a place to communicate, relax and develop their strategic skills at the chessboard. In our cafe you will find not only delicious coffee, but also an atmosphere of intellectual competition and friendly battles.
+🎯 Місія
+Наша мета — створити атмосферне місце, де стратегія та смак поєднуються. Royal Gambit — це простір для тих, хто прагне приємного відпочинку, інтелектуального дозвілля, натхненної розмови й ароматної кави. Ми популяризуємо шахову культуру серед людей різного віку, створюючи унікальні умови для розвитку й відпочинку.
 
-Mission
-We strive to create a space where intellectual entertainment and a pleasant atmosphere are combined. Royal Gambit is not just a cafe, it is a place for people who want to relax, discuss chess strategies, enjoy coffee and exchange ideas. Ours is to popularize chess and other strategic games among age groups, creating a unique environment for development and relaxation.
+💎 Цінності
+Інтелектуальне задоволення — Ми вважаємо шахи мистецтвом і заохочуємо розвиток мислення та стратегічних навичок.
 
-Values
-Intellectual enjoyment: We believe that chess is not just a game, but a true art of thinking. At Royal Gambit, we support the development of intelligence and strategic thinking in everyone who visits us.
+Соціальна культура — Наш заклад — це місце дружби, обміну ідеями та розвитку через гру.
 
-Social Culture: Our cafe is a place where you can make new friends, discuss hobbies, and improve your chess skills in an atmosphere of shared competition.
+Якість і смак — Ми використовуємо лише найкращу каву й інгредієнти, щоб кожен ковток і кожна страва приносили насолоду.
 
-Quality and Taste: We use only the best coffee, allowing our guests to enjoy the true taste in every sip.
+Доступність для всіх — У Royal Gambit раді бачити як новачків, так і досвідчених гравців — кожен знайде своє місце.
 
-Accessibility for everyone: Our cafe is open to people of all ages and levels of play, from beginners to professionals, so that everyone can find their place in the world of chess and coffee. 
+🌐 Призначення сайту
+Сайт створено для того, щоб представити атмосферу нашого кафе, познайомити з меню, розповісти про наші послуги та стати зручним каналом зв’язку з клієнтами й партнерами.
 
-The website aims to provide potential customers and partners with information about our services, products, latest news, and opportunities for collaboration.
+💡 Розділи сайту
+Головна сторінка — Привітальне представлення кафе з ключовою інформацією та швидкими діями.
 
-## Features
+Про нас — Історія створення, місія та команда Royal Gambit.
 
-- **Homepage**: A clean and welcoming introduction to Royal Gambit with essential information and clear CTAs.
-- **About Us**: Learn more about our history, mission, and the team behind Royal Gambit.
-- **Products/Services**: Showcase of products/services offered by Royal Gambit, with detailed descriptions and purchasing options.
-- **Blog/News**: Stay updated with the latest company news, industry insights, and more.
-- **Partnerships**: Opportunities for collaboration and partnership with Royal Gambit.
-- **Contact**: Easy access to our contact information and a contact form for inquiries.
-- **FAQ**: Find answers to common questions and support.
-- **Privacy Policy & Terms of Use**: Clear guidelines on privacy and usage of the website.
+Меню — Повне меню страв і напоїв з тематичним оформленням.
+
+Спеціальні пропозиції — Особливі страви й напої, доступні протягом дня.
+
+Галерея — Фотографії атмосфери, подій та подачі страв.
+
+Контакти — Зворотний зв’язок, карта та форма для запитів.
 
 ## Tech Stack
 
