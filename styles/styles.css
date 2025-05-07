@@ -5,6 +5,36 @@
     --background-color: #3d3d3d;
     --text-color: #161616;
 }
+html {
+    scroll-behavior: smooth;
+}
+h1, h2, h3, h4, h5, h6 {
+    opacity: 0;
+    transform: scale(0.8);
+    animation: fadeInScale 0.8s ease-out forwards;
+}
+
+section:nth-child(2) h1, h2, h3, h4, h5, h6 {
+    animation-delay: 0.2s;
+}
+section:nth-child(3) h1, h2, h3, h4, h5, h6  {
+    animation-delay: 0.4s;
+}
+section:nth-child(4) h1, h2, h3, h4, h5, h6  {
+    animation-delay: 0.6s;
+}
+
+@keyframes fadeInScale {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
 /* #region Font */
 @font-face {
     font-family: 'CormorantGaramond';
@@ -89,10 +119,63 @@ h2, h3, h4, h5, h6{
     align-items: center;
     justify-content: center;
 }
-.btn-primary:hover{
+.btn-primary {
+    transition: all 0.3s ease;
+}
+.navbar-brand img {
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand img:hover {
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.social-links a i {
+    transition: all 0.3s ease;
+}
+
+.social-links a i:hover {
+    animation: spin 0.5s ease;
+    opacity: 0.9; /* Золотий колір для прикладу, можеш змінити */
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.btn-primary:hover {
+    animation: lift 0.5s ease forwards;
     background-color: var(--accent-color);
     color: var(--primary-color);
     border: 1px solid var(--accent-color);
+}
+
+@keyframes lift {
+    0% {
+        transform: translateY(0);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    100% {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    }
 }
 .rg-hero-container{
     border-radius: 2%;
@@ -108,15 +191,108 @@ h2, h3, h4, h5, h6{
     height: 180px;
     object-fit: cover;
 }
+.card {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: slideUp 0.6s ease-out forwards;
+}
+
+.card:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.card:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
 /* #endregion */
 
+/* #region Special Offers */
+.menu-item {
+    opacity: 0;
+    transform: translateX(-30px);
+    animation: slideIn 0.6s ease-out forwards;
+}
+
+.menu-item:nth-child(2) {
+    animation-delay: 0.2s;
+}
+.menu-item:nth-child(3) {
+    animation-delay: 0.4s;
+}
+.menu-item:nth-child(4) {
+    animation-delay: 0.6s;
+}
+.menu-item:nth-child(5) {
+    animation-delay: 0.8s;
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.special-offers-section img {
+    animation: sway 3s ease-in-out infinite;
+}
+
+@keyframes sway {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+/* #endregion */
 /* #region Gallery*/
 .rg-img-cut-gallery{
     height: 70vh;
     max-height: 700px;
     width: 100%;
     object-fit: cover;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    transition: transform 0.3s ease;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    animation: pulseBtn 0.5s ease infinite;
+}
+
+@keyframes pulseBtn {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 /* #endregion */
 
